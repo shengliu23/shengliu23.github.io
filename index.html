@@ -28,7 +28,7 @@
                 I obtained my Ph.D. degree from <a href="https://www.buffalo.edu/">University at Buffalo, SUNY</a>, 
                 where I was advised by <a href="https://cse.buffalo.edu/~jsyuan/">Prof. Junsong Yuan</a>.
                 Before that, I worked at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>. 
-                I received my Bachelor degree from Xian Jiaotong University, 
+                I received my Bachelor's degree from Xian Jiaotong University, 
                 where I was a member of the Special Class of the Gifted Young.
               </p>
               <p style="text-align:center">
@@ -121,19 +121,23 @@
         <a href="https://drive.google.com/file/d/1MNRJ5YXGnKMslUjQrIpRXUYjg6pl8trU/view?usp=share_link">paper</a>
         <p></p>
         <p>
-          We design a self-supervised pre-training method for image harmonization. Our method enables us to outperform existing methods while using less than 50% labeled training data at the same time.
+          We designed a self-supervised pre-training method for image harmonization, 
+          which can outperform existing methods 
+          while using less than 50% of labeled training data used by them.
         </p>
       </td>
     </tr>
         
 
-    <tr onmouseout="depth_stop()" onmouseover="depth_start()">
+    <tr onmouseout="depthsfm_stop()" onmouseover="depthsfm_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='depthsfm_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="data/SfM540p.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
+          <div class="two" id='depthsfm_image'>
+            <video  width=100% height=100% muted autoplay loop>
+            <source src="data/SfM540p.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
           <img src='images/SfM.png' width="200">
         </div>
         <script type="text/javascript">
@@ -167,7 +171,7 @@
         <p></p>
         <p>
         Leveraging depth prior enables us to faithfully reconstruct 3D scene structures from movies and TV shows (and Internet photo collections as well). 
-        DepthSfM can reconstruct part of Los Angeles from a 2-second clip of <a href="https://en.wikipedia.org/wiki/Bosch_(TV_series)">Bosch</a>. 
+        DepthSfM can reconstruct parts of Los Angeles from a 2-second clip of <a href="https://en.wikipedia.org/wiki/Bosch_(TV_series)">Bosch</a>. 
         Check our <a href="https://www.youtube.com/watch?v=Sd3ej0DU4bs">video</a> to see the results. 
         </p>
       </td>
@@ -209,9 +213,10 @@
         <a href="data/ovis_data.txt">data</a>
         <p></p>
         <p>
-        Large-scale vision-and-language pre-training enables our model to search for and localize visual instances in an image database with arbitrary textual query. 
-        Check our 1-minute demo <a href="https://www.youtube.com/watch?v=rqnUZRmLd0g">video</a> in which we compare our method with <a href="https://images.google.com/">Google</a> and <a href="https://www.bing.com/">Bing</a>.
-        It's interesting :)
+        Large-scale vision-and-language pre-training enables our model to search for and localize visual instances with arbitrary textual queries. 
+        Check our 1-minute demo <a href="https://www.youtube.com/watch?v=rqnUZRmLd0g">video</a> in which we compare our method with <a href="https://images.google.com/">Google</a> and <a href="https://www.bing.com/">Bing</a>
+        (our method onlys use visual information of images, while Google and Bing leverage textual metadata as well).
+        It's interesting &#x1F61C.
         </p>
       </td>
     </tr>
@@ -250,8 +255,7 @@
         <p>
         Learning kinematic formulas, <em>e.g.</em>, 
         kinematic equations for objects in free fall, 
-        with <a href="https://www.matthewtancik.com/nerf">Neural Radiance Field (NeRF)</a> without supervision.
-        </p>
+        with <a href="https://www.matthewtancik.com/nerf">Neural Radiance Field (NeRF)</a> in an unsupervised manner.        </p>
       </td>
     </tr>
 
@@ -287,7 +291,10 @@
         <a href="https://drive.google.com/file/d/1pk7wX5lNeYeObhecfz_eZwCLLMFvYC9B/view?usp=share_link">paper</a>
         <p></p>
         <p>
-         Journal version of our ACM MM'18 paper. We design a two-branch encoder that encodes high-level semantic information and low-level content information of videos, respectively, for video captioning. 
+         Journal version of our ACM MM'18 paper. 
+         We designed a two-branch visual encoder for video captioning, 
+         with one branch encoding high-level semantic information 
+         and the other encoding low-level content information of videos.
         </p>
       </td>
     </tr>
@@ -321,7 +328,9 @@
         <a href="https://drive.google.com/file/d/1OGgjHCOlNFGRwyYvD7Fj5HKKMqcOBsm3/view?usp=share_link">paper</a>
         <p></p>
         <p>
-          We design a two-branch encoder that encodes high-level semantic information and low-level content information of videos, respectively, for video captioning.
+          We designed a two-branch visual encoder for video captioning, 
+          with one branch encoding high-level semantic information 
+          and the other encoding low-level content information of videos.
         </p>
       </td>
     </tr>
