@@ -259,6 +259,40 @@
     </tr>
 
 
+    <tr onmouseout="form_stop()" onmouseover="form_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/NeCH.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function form_start() {
+            document.getElementById('form_image').style.opacity = "1";
+          }
+
+          function form_stop() {
+            document.getElementById('form_image').style.opacity = "0";
+          }
+          form_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <!-- <a href=""> -->
+          <papertitle>NeCH: Neural Clothed Human Model</papertitle>
+        <!-- </a> -->
+        <br>
+        <strong>Sheng Liu*</strong>, 
+        Liangchen Song*, Yi Xu, Junsong Yuan
+        <br>
+        <em>VCIP</em>, 2022
+        <br>
+        * indicates equal contribution
+        <br>
+        <a href="https://ieeexplore.ieee.org/document/9675372k">paper</a>
+        <p>We leverage neural radiance fields (NeRF) to learn neural clothed human models.</p>
+      </td>
+    </tr>
+
+
     <tr onmouseout="sibnet_pami_stop()" onmouseover="sibnet_pami_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
