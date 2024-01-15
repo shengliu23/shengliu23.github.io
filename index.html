@@ -21,8 +21,7 @@
                 <name>Sheng Liu</name>
               </p>
               <p>
-                I am an applied scientist at <a href="https://www.amazon.com/Amazon-Video/b?ie=UTF8&node=2858778011">Amazon Prime Video</a>,
-                where I work on computer vision and machine learning. 
+                I am an applied scientist at <a href="https://www.amazon.com/Amazon-Video/b?ie=UTF8&node=2858778011">Amazon Prime Video</a>. I work on computer vision and natural language processing. 
               </p>
               <p>
                 I obtained my Ph.D. degree from <a href="https://www.buffalo.edu/">University at Buffalo, SUNY</a>, 
@@ -53,7 +52,7 @@
               <li>2022.05: &nbsp; I joined Amazon Prime Video as an applied scientist.</li>
               <li>2022.05: &nbsp; I graduated &#127891! Thank you Prof. Yuan!</li>
               <li>2022.02: &nbsp; Our paper is accepted by <em><strong>CVPR</strong></em>, 2022.</li>
-              <li>2022.10: &nbsp; Our paper is accepted by <em><strong>AAAI</strong></em>, 2022.</li>
+              <li>2021.10: &nbsp; Our paper is accepted by <em><strong>AAAI</strong></em>, 2022.</li>
             </ul>
             <p>
           </td>
@@ -67,10 +66,16 @@
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>Research</heading>
             <p>
-              At Amazon, I am working on generative AI and 3D scene reconstruction to support <a href="https://advertising.amazon.com/blog/virtual-product-placement">Virtual Product Placement</a>.
-              My Ph.D. research focused on vision and vision-and-language (VL), which I am still quite interested. 
-              During this time, I also worked on scene understanding and neural radiance fields<a href="https://www.matthewtancik.com/nerf">NeRF</a>. 
-              We leveraged NeRF to learn kinematic formulas and create 3D avatars.
+              At Amazon, work on image generation, 3D scene reconstruction, and large language models (LLMs) to support 
+              <a href="https://advertising.amazon.com/blog/virtual-product-placement">Virtual Product Placement</a> for Prime Video contents.
+              Our work on image compositing and structure-from-motion was published at CVPR'23 and CVPR'22, respectively. 
+              I have hands-on experience in developing LLMs, with a particular focus on RHLF.
+              Additionally, I proposed and co-led the development of a computer vision solution for real-time virtual product placement on Twitch.
+            </p>
+            <p>
+              My Ph.D. research focused on vision-and-language (VL). 
+              Our work concentrated on vision-and-language pre-training, visual question answering, video captioning, and machine translation. 
+              I also worked on scene understanding and neural rendering. We utilized neural radiance fields (NeRF) to learn kinematic formulas and create 3D avatars.
             </p>
           </td>
         </tr>
@@ -120,9 +125,10 @@
         <a href="https://drive.google.com/file/d/1MNRJ5YXGnKMslUjQrIpRXUYjg6pl8trU/view?usp=share_link">paper</a>
         <p></p>
         <p>
-          We designed a self-supervised pre-training method for image harmonization, 
+          <!-- We designed a self-supervised pre-training method for image harmonization, 
           which can outperform existing methods 
-          while using less than 50% of labeled training data used by them.
+          while using less than 50% of labeled training data used by them. -->
+          We designed a self-supervised pre-training method for image harmonization that outperforms existing methods while using less than 50% of the labeled training data they require.
         </p>
       </td>
     </tr>
@@ -169,9 +175,9 @@
         <a href="https://github.com/amazon-research/small-baseline-camera-tracking">data</a>
         <p></p>
         <p>
-        Leveraging depth prior enables us to faithfully reconstruct 3D scene structures from movies and TV shows (and Internet photo collections as well). 
+        Leveraging depth priors enables DepthSfM to faithfully reconstruct 3D scene structures from movies, TV shows, and Internet photo collections. 
         DepthSfM can reconstruct parts of Los Angeles from a 2-second clip of <a href="https://en.wikipedia.org/wiki/Bosch_(TV_series)">Bosch</a>. 
-        Check our <a href="https://www.youtube.com/watch?v=Sd3ej0DU4bs">video</a> to see the results. 
+        Check out this <a href="https://www.youtube.com/watch?v=Sd3ej0DU4bs">video</a> to see the results.
         </p>
       </td>
     </tr>
@@ -212,10 +218,9 @@
         <a href="data/ovis_data.txt">data</a>
         <p></p>
         <p>
-        Large-scale vision-and-language pre-training enables our model to search for and localize visual instances with arbitrary textual queries. 
-        Check our 1-minute demo <a href="https://www.youtube.com/watch?v=rqnUZRmLd0g">video</a> in which we compare our method with <a href="https://images.google.com/">Google</a> and <a href="https://www.bing.com/">Bing</a>
-        (our method onlys use visual information of images, while Google and Bing leverage textual metadata as well).
-        It's interesting &#x1F61C.
+          We introduced open-vocabulary visual instance search (OVIS) which aims to search for and localize visual instances using arbitrary textual queries, and developed a large-scale vision-and-language pre-trained model for OVIS.  
+          Check out this 1-minute demo <a href="https://www.youtube.com/watch?v=rqnUZRmLd0g">video</a> where we compare our model with <a href="https://images.google.com/">Google</a> and <a href="https://www.bing.com/">Bing</a>.
+          Our model uses only the visual information of images, while Google and Bing also leverage textual metadata. It's quite intriguing! &#x1F61C.
         </p>
       </td>
     </tr>
@@ -252,9 +257,9 @@
         <br>
         <a href="https://drive.google.com/file/d/1A7q8_CbNKFPXy10f9Mp7Q_NohV00G6WF/view?usp=share_link">paper</a>
         <p>
-        Learning kinematic formulas, <em>e.g.</em>, 
-        kinematic equations for objects in free fall, 
-        with <a href="https://www.matthewtancik.com/nerf">Neural Radiance Field (NeRF)</a> in an unsupervised manner.        </p>
+          We proposed a novel framework capable of learning kinematic formulas, <em>e.g.</em>, kinematic equations for objects in free fall, 
+          in an unsupervised manner by leveraging neural radiance fields (<a href="https://www.matthewtancik.com/nerf">NeRF</a>).
+        </p>
       </td>
     </tr>
 
@@ -288,7 +293,7 @@
         * indicates equal contribution
         <br>
         <a href="https://ieeexplore.ieee.org/document/9675372">paper</a>
-        <p>We leverage neural radiance fields (NeRF) to learn neural clothed human models.</p>
+        <p>We proposed a neural clothed human model, which learns neural radiance fields (<a href="https://www.matthewtancik.com/nerf">NeRF</a>) to represent 3D animatable avatars</p>
       </td>
     </tr>
 
@@ -319,16 +324,13 @@
         <strong>Sheng Liu</strong>,
         Zhou Ren, Junsong Yuan
         <br>
-        <em>TPAMI</em>, 2020
+        <em>TPAMI</em>, 2021
         <br>
         <a href="https://drive.google.com/file/d/1pk7wX5lNeYeObhecfz_eZwCLLMFvYC9B/view?usp=share_link">paper</a>
         <p></p>
         <p>
-         Journal version of our ACM MM'18 paper. 
-         We designed a two-branch visual encoder for video captioning, 
-         with one branch encoding high-level semantic information 
-         and the other encoding low-level content information of videos.
-         The performance of our model could be further improved by taking audio as an additional input.
+          This is the journal version of our paper presented at ACM MM'18. 
+          We designed a two-branch visual encoder for video captioning: one branch encodes high-level semantic information, while the other encodes low-level content information of videos. 
         </p>
       </td>
     </tr>
@@ -362,10 +364,7 @@
         <a href="https://drive.google.com/file/d/1OGgjHCOlNFGRwyYvD7Fj5HKKMqcOBsm3/view?usp=share_link">paper</a>
         <p></p>
         <p>
-          We designed a two-branch visual encoder for video captioning, 
-          with one branch encoding high-level semantic information 
-          and the other encoding low-level content information of videos.
-          The performance of our model could be further improved by taking audio as an additional input.
+          We designed a two-branch visual encoder for video captioning: one branch encodes high-level semantic information, while the other encodes low-level content information of videos.
         </p>
       </td>
     </tr>
